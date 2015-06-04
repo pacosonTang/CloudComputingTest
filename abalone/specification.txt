@@ -1,3 +1,5 @@
 因为input文件有两个，文件格式不一样的读取方式。
-
+我们吧总体数据abalone-data 划分为 abalone-Test and abalone-Train, sample.txt 是 abalone-Train.txt 
+上传到hdfs到数据文件， 而mean是hadoop通过abalone-Train.txt 求出到均值文件；我们通过VarianceMain求出
+样本方差， 结果文件为： variance.txt
     
